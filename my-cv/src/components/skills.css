@@ -1,0 +1,64 @@
+.skill {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+.skill_cont {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  margin: 20px 10px;
+  padding-left: 20px;
+}
+
+.skill__item {
+  width: 50%;
+  margin: 5px 0;
+  font-size: 20px;
+  letter-spacing: 2px;
+}
+
+.skill__item::before {
+  content: "";
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  top: 4px;
+  left: -5px;
+  position: relative;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("../../public/atom.svg");
+}
+
+.skill__en {
+    display: block;
+    position: relative;
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 30px;
+    font-size: 25px;
+    text-align: center;
+}
+
+
+@media (max-width: 835px) {
+  .skill__item {
+    font-size: 17px;
+  }
+  .skill_cont {
+    padding-left: 0;
+  }
+}
+
+@media (max-width: 700px) {
+  .skill__item {
+    font-size: 20px;
+  }
+}
+@media (max-width: 415px) {
+  .skill__item {
+    font-size: 16px;
+  }
+}

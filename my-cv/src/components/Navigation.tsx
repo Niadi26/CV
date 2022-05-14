@@ -15,7 +15,7 @@ export function Navigation() {
           <NavLink to="/portfolio">Portfolio</NavLink>
         </li>
         <li className="nav__item">
-          <NavLink to="/contacts">Contacts</NavLink>
+          <NavLink to="/contacts">Experience</NavLink>
         </li>
       </ul>
     </nav>

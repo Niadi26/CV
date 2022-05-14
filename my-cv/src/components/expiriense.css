@@ -1,0 +1,50 @@
+.exp__cont {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 10px;
+    border-bottom: 2px solid rgb(53, 188, 225);;
+    font-size: 13px;
+}
+
+.exp__data {
+    padding-left: 20px;
+    opacity: 0.5;
+}
+
+.exp__plase {
+    font-size: 17px;
+    position: relative;
+}
+
+.exp__info {
+    padding-left: 20px;
+    opacity: 0.8;
+    margin-top: 5px;
+}
+
+.exp-stud::before {
+    content: "";
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    top: 4px;
+    left: -15px;
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("../../public/education.svg");
+}
+
+.exp-work::before {
+    content: "";
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    top: 4px;
+    left: -15px;
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("../../public/work.svg");
+}

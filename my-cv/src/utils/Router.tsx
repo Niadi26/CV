@@ -1,6 +1,6 @@
 import { Routes, Route } from 'react-router-dom';
 import { About } from '../components/About';
-import { Contacts } from '../components/Contakts';
+import { Experience } from '../components/Contakts';
 import { Portfolio } from '../components/Portfolio';
 import { Skills } from '../components/Skills';
 
@@ -10,7 +10,7 @@ export function Router() {
             <Route path='/' element={<About />}></Route>
             <Route path='skills' element={<Skills />}></Route>
             <Route path='portfolio' element={<Portfolio />}></Route>
-            <Route path='contacts' element={<Contacts />}></Route>
+            <Route path='contacts' element={<Experience />}></Route>
             <Route></Route>
         </Routes>
     )

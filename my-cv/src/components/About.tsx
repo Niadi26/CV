@@ -1,7 +1,9 @@
+import "./about.css";
+
 export function About() {
-    return (
-        <div>
-            <p>About</p>
-        </div>
-    )
+  return (
+    <div className="side">
+      <p>About</p>
+    </div>
+  );
 }

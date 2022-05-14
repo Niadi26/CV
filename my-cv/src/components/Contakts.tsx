@@ -1,6 +1,6 @@
 export function Contacts() {
     return (
-        <div>
+        <div className="side">
             <p>Contacts</p>
         </div>
     )

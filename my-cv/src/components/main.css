@@ -1,0 +1,51 @@
+.main{
+    background-color: white;
+    text-align: center;
+    width: 40%;
+    height: 100%;
+    border-radius: 3px;
+}
+
+.main__photo {
+    height: 300px;
+    background-image: url('../../public/IMG_9505.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.main__name {
+
+}
+
+.main__work {
+
+}
+
+.main__contacts {
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.contact__item {
+    display: block;
+    width: 30px;
+    height: 30px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.git {
+    background-image: url('../../public/github.svg');
+}
+
+.link {
+    background-image: url('../../public/link.png');
+}
+
+.telega {
+    background-image: url('../../public/telegram.png');
+}

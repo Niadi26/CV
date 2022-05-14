@@ -1,0 +1,18 @@
+.nav {
+    background-color: white;
+    text-align: center;
+    margin: 0 5px;
+    border-radius: 5px;
+}
+
+.nav__item {
+    display: block;
+    align-items: center;
+    width: 90px;
+    height: 90px;
+    line-height: 90px;
+}
+
+.active {
+    color:rgb(53, 188, 225);
+}

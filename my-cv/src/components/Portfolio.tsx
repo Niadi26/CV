@@ -1,6 +1,6 @@
 export function Portfolio() {
     return (
-        <div>
+        <div className="side">
             <p>Portfolio</p>
         </div>
     )
